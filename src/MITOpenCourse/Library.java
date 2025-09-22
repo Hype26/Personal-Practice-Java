@@ -3,6 +3,15 @@ package MITOpenCourse;
 public class Library {
     // Add the missing implementation to this class
 
+    public void addBook() {
+    }
+    public printOpeningHours() {}
+    public printAddress() {}
+    public borrowBook {}
+    public String printAvailableBooks() {
+
+    }
+
     public static void main(String[] args) {
         // Create two libraries
         Library firstLibrary = new Library("10 Main St.");
