@@ -1,3 +1,5 @@
+package CodeWithMosh;
+
 public class CharacterFinder {
     public static void main(String[] args) {
 

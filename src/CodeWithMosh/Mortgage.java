@@ -1,7 +1,9 @@
+package CodeWithMosh;
+
 import java.text.NumberFormat;
 import java.util.Scanner;
 
-//Mortgage Calculation = P{r(1+r)^n/(1+r)^n -1}
+//CodeWithMosh.Mortgage Calculation = P{r(1+r)^n/(1+r)^n -1}
 // P = principal, r = monthly rate, n = number of monthly payments
 
 public class Mortgage {
@@ -29,7 +31,7 @@ public class Mortgage {
 
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
 
-        System.out.println("Mortgage: " + mortgageFormatted);
+        System.out.println("CodeWithMosh.Mortgage: " + mortgageFormatted);
 
     }
 }
